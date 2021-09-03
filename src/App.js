@@ -18,7 +18,7 @@ function App() {
           <Route exact path="/">
             <HomePage />
           </Route>
-          <Route path="/post/:id">
+          <Route path="/post/:postId">
             <PostPage />
           </Route>
         </Switch>

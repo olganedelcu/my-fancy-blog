@@ -1,4 +1,3 @@
-import React from "react";
 import { useState, useEffect } from 'react';
 import {
   Link
@@ -26,7 +25,7 @@ function HomePage() {
         "Content-Type": "application/json"
       }
     })
-    // refetch and refresh the UI
+    
     fetchPostList()
   }
 
@@ -38,7 +37,7 @@ function HomePage() {
   return (
     <div className="App">
       {postList.map(post => {
-        return <Link to={`/post/${post.id}`}>
+        return <Link key={post.id} to={`/post/${post.id}`}>
           <p>{post.title}</p>
         </Link>
       })}
