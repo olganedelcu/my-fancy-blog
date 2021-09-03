@@ -1,8 +1,8 @@
-
+import React from "react";
 import { useState, useEffect } from 'react';
 import {
   Link
-} from "react-route-dom";
+} from "react-router-dom";
 
 const apiUrl = "http://localhost:3004/posts"
 
@@ -38,7 +38,7 @@ function HomePage() {
   return (
     <div className="App">
       {postList.map(post => {
-        return <Link to={'/post/${post.id}'}>
+        return <Link to={`/post/${post.id}`}>
           <p>{post.title}</p>
         </Link>
       })}

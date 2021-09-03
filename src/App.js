@@ -1,29 +1,28 @@
-// import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 import {
-  BrowserRoute as Router,
+  BrowserRouter as Router,
   Switch,
-  Route,
-  Link
-} from "react-route-dom";
+  Route
+} from "react-router-dom";
 import HomePage from './components/HomePage';
-import postPage from "./components/PostPage";
+import PostPage from './components/PostPage';
 
 
 function App() {
 
   return (
     <div className="App">
-      <Route>
+      <Router>
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <HomePage />
           </Route>
           <Route path="/post/:id">
             <PostPage />
           </Route>
         </Switch>
-      </Route>
+      </Router>
     </div>
   );
 }
