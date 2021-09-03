@@ -26,6 +26,21 @@
       "title": "fgd",
       "author": "user",
       "id": 5
+    },
+    {
+      "body": "some comment",
+      "postId": "1",
+      "id": 6
+    },
+    {
+      "body": "",
+      "postId": "1",
+      "id": 7
+    },
+    {
+      "body": "anotehr comemnt\n",
+      "postId": "1",
+      "id": 8
     }
   ],
   "comments": [

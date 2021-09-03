@@ -45,21 +45,23 @@ export default () => {
 
 
     return <div>
-        <h2>{postData && postData.title}</h2>
-        <p>{postData && postData.description}</p>
-        <h2>Comments: </h2>
         <div>
-            {listComments.map(comm => {
-                return <p>{comm.body}</p>
-            })}
+            <h2>{postData && postData.title}</h2>
+            <p>{postData && postData.description}</p>
+            <h2>Comments: </h2>
+            <div>
+                {listComments.map(comm => {
+                    return <p>{comm.body}</p>
+                })}
+            </div>
+            <textarea value={commentText} onChange={(e) => {
+                setCommentText(e.target.value)
+            }}></textarea>
+            <button onClick={() => {
+                createComment(commentText);
+                setCommentText("") //clean the comment area
+            }}>Comment</button>
         </div>
-        <textarea value={commentText} onChange={(e) => {
-            setCommentText(e.target.value)
-        }}></textarea>
-        <button onClick={() => {
-            createComment(commentText);
-            setCommentText("")
-        }}>Comment</button>
         <Link to="/">Go Back Home</Link>
     </div>
 }
