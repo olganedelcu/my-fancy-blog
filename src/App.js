@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import HomePage from './components/HomePage';
 import PostPage from './components/PostPage';
-
+import CreatePost from './components/CreatePost';
 
 function App() {
 
@@ -17,6 +17,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <HomePage />
+          </Route>
+          <Route exact path="/create-post">
+            <CreatePost />
           </Route>
           <Route path="/post/:postId">
             <PostPage />
