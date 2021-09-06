@@ -2,130 +2,40 @@
   "posts": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+      "title": "Drop out college",
+      "author": "Olga N.",
+      "description": "This time one year ago I was just starting my first year of college. I was fresh new to this `academic` world. All seem so new and exciting, until we were told this year was gonna be almost all online... In that moment I knew everything was gonna change, teachers getting confused with new technology, having late lectures in the evenings and all the caos you can imagine."
     },
     {
       "id": 2,
       "title": "A fresh new day",
       "author": "olga",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+    },  
+    {
+      "title": "The fire Tree",
+      "description": "There's a tree on fire in the forest let's stop the fire and hope it didn't burn the hole tree",
+      "id": 18
     },
     {
-      "title": "dsgfdfs",
-      "author": "user",
-      "id": 3
-    },
-    {
-      "title": "df",
-      "author": "user",
-      "id": 4
-    },
-    {
-      "title": "fgd",
-      "author": "user",
-      "id": 5
-    },
-    {
-      "body": "some comment",
-      "postId": "1",
-      "id": 6
-    },
-    {
-      "body": "",
-      "postId": "1",
-      "id": 7
-    },
-    {
-      "body": "anotehr comemnt\n",
-      "postId": "1",
-      "id": 8
-    },
-    {
-      "body": "akdjaljk",
-      "postId": "1",
-      "id": 9
-    },
-    {
-      "body": "asds",
-      "postId": "1",
-      "id": 10
-    },
-    {
-      "body": "werew",
-      "postId": "1",
-      "id": 11
-    },
-    {
-      "body": "ewrewre",
-      "postId": "1",
-      "id": 12
-    },
-    {
-      "body": "hjh",
-      "postId": "1",
-      "id": 13
-    },
-    {
-      "body": "wrtd",
-      "postId": "1",
-      "id": 14
-    },
-    {
-      "body": "sgrts",
-      "postId": "1",
-      "id": 15
-    },
-    {
-      "body": "ertewtrewtw",
-      "postId": "1",
-      "id": 16
+      "title": "Not the same post",
+      "description": "Added an event so it prevents the page from reloading",
+      "id": 19
     }
   ],
   "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "body": "dfdsa",
-      "postId": "1",
-      "id": 2
-    },
-    {
-      "body": "gfas",
-      "postId": "1",
-      "id": 3
-    },
     {
       "body": "half there\n",
       "postId": "5",
       "id": 4
     },
     {
-      "body": "dad",
-      "postId": "1",
-      "id": 5
-    },
-    {
-      "body": "dad",
-      "postId": "1",
-      "id": 6
-    },
-    {
-      "body": "dad",
-      "postId": "1",
-      "id": 7
-    },
-    {
       "body": "I don't like this post",
-      "postId": "1",
+      "postId": "3",
       "id": 8
     }
   ],
   "profile": {
-    "name": "typicode"
+    "name": "Olga N."
   }
 }
