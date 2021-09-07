@@ -27,7 +27,7 @@ function HomePage() {
         return (
           <StyledLink to={`/post/${post.id}`} key={post.id}>
             <PostTitle data-testid={`title-${post.id}`}>{post.title}</PostTitle>
-            <PostDescription>{post.description}</PostDescription>
+            <PostDescription data-testid={`description-${post.id}`}>{post.description}</PostDescription>
           </StyledLink>
         );
       })}

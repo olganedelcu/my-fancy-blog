@@ -2,7 +2,7 @@
   "posts": [
     {
       "id": 1,
-      "title": "Drop out college",
+      "title": "Berlin",
       "author": "Olga N.",
       "description": "This time one year ago I was just starting my first year of college. I was fresh new to this `academic` world. All seem so new and exciting, until we were told this year was gonna be almost all online... In that moment I knew everything was gonna change, teachers getting confused with new technology, having late lectures in the evenings and all the caos you can imagine."
     },
@@ -15,7 +15,12 @@
     {
       "title": "The fire Tree",
       "description": "There's a tree on fire in the forest let's stop the fire and hope it didn't burn the hole tree",
-      "id": 18
+      "id": 12
+    },
+    {
+      "title": "A demo title",
+      "description": "Some description",
+      "id": 3
     },
     {
       "title": "Not the same post",
